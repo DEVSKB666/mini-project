@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* styles.css */
+
+body {
+    font-family: "Prompt", sans-serif !important;
+}
+
+
+.fa-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+.nav-sidebar .nav-item>.nav-link {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.btn-block {
+    display: block;
+    width: 320px;
+}
+
+.sidebar-toggle {
+    color: #333;
+    border-right: 1px solid #eee
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+  }
+
+  .login-box {
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-logo {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #0042dd;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    background-color: #0042dd;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #0036b2;
+  }
+
+  .form-control {
+    border-radius: 8px;
+  }
+
+  .login-box-msg {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .login-box .input-group-text {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  body {
+    background-color: #f8f9fa;
+}
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-box {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-logo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0042dd;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #0042dd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0036b2;
+}
+
+.input-group-text {
+    border-radius: 8px;
+}
